@@ -1,0 +1,40 @@
+#aula{
+    font-weight: bold;
+    font-size: 30px;
+    color: goldenrod;
+    background-color: lavenderblush;
+    text-align: center;
+    padding-top:10px;
+}
+
+ul#navbar {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width:59 0x;
+    background:#159cb0 url(media/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+ul#navbar li{
+    float: left;
+}
+
+ul#navbar a{
+    display:block;
+    padding:0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(media/divisor.png) repeat-y left top;
+}
+
+li.primeiro a{
+    background:none;
+}
+
+ul#navbar a:hover, ul#navbar .selected a{
+    color: #085562;
+    background: #44cade;
+}

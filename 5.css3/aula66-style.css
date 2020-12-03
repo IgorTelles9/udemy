@@ -1,0 +1,41 @@
+#aula{
+    font-weight: bold;
+    font-size: 30px;
+    color: goldenrod;
+    background-color: lavenderblush;
+    text-align: center;
+    padding-top:10px;
+}
+/*
+.box{
+    width:400px;
+    background: #dedede url(media/arredondamento/topo.png) no-repeat left top;
+}
+
+
+.box h2{
+    padding: 10px 20px 0 20px;
+}
+.box p{
+    background: url(media/arredondamento/baixo.png) no-repeat left bottom;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+*/
+
+.box{
+    width: 400px;
+    background: #dedede url(media/arredondamento/fundo-arredondamento.png) repeat-y;
+
+}
+
+.box h2{
+    padding: 10px 20px 0 20px;
+    background: url(media/arredondamento/topo2.png) no-repeat left top;
+}
+
+.box p{
+    background: url(media/arredondamento/baixo2.png) no-repeat left bottom;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}

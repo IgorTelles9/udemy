@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 64 </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="aula64-style.css">
+    </head>
+    <body>
+        <div id="aula">
+            Aula 64
+            <hr>
+        </div>
+        <h2> Formulários bonitos </h2>
+        <form>
+            <fieldset id="contato">
+                <legend>
+                    Detalhes de contato
+                </legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome"> 
+                </div>
+                <br>
+                <div>
+                    <label for="nome">E-Mail:</label>
+                    <input type="text" name="email" id="email"> 
+                </div>
+                <br>
+                <div>
+                    <label for="tel">Telefone:</label>
+                    <input type="text" name="tel" id="tel"> 
+                </div>
+            </fieldset>
+
+            <fieldset id="mensagem">
+                <legend> Mensagem </legend>
+                <div>
+                    <label for="texto-mensagem">Mensagem:</label>
+                    <textarea name="texto-mensagem" id="texto-mensagem"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend> Lembrar de mim </legend>
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id ="sim"> Sim
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input class="radio" type="radio" name="lembrar" id ="nao"> Não
+                    </label>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

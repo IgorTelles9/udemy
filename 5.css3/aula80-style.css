@@ -1,0 +1,88 @@
+#aula{
+    font-weight: bold;
+    font-size: 30px;
+    color: goldenrod;
+    background-color: lavenderblush;
+    text-align: center;
+    padding-top:10px;
+}
+
+@font-face{
+    font-family: Lato;
+    src: url("media/Lato-Regular.woff");
+}
+
+body, html{
+    margin: 0;
+    font-size: 16px;
+    font-family: Lato;
+    color: #777;
+    height: 100%;
+}
+
+
+
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.content{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.content-title{
+    position:absolute;
+    left: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    
+
+}
+
+span.title{
+    color: white;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+/* Efeito Paralaxe  */
+
+.img1, .img2, .img3, .img4 {
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.img1{
+    background-image: url(media/parallax/imagem1.jpg);
+}
+
+.img2{
+    background-image: url(media/parallax/imagem2.jpg);
+}
+
+.img3{
+    background-image: url(media/parallax/imagem3.jpg);
+}
+
+.img4{
+    background-image: url(media/parallax/imagem4.jpg);
+
+}

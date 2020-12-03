@@ -1,0 +1,50 @@
+#aula{
+    font-weight: bold;
+    font-size: 30px;
+    color: goldenrod;
+    background-color: lavenderblush;
+    text-align: center;
+    padding-top:10px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset{
+    margin: 1em 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    float:left;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    display:block;
+    cursor: pointer;
+}
+
+input{
+    width: 180px;
+}
+
+input#tel{
+    width: 100px;
+}
+
+input.radio, input.checkbox, input.submit{
+    width: auto;
+}
+
+.radio{
+    margin-right: 1em;
+}
+
+textarea#texto-mensagem{
+    width: 200px;
+    height: 130px;
+}

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bootstrap - botões</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  </head>
+
+  <body>
+
+    <!-- Navegação
+    Tipos de navegação:
+        nav-pills
+        nav-tabs
+    opções de alinhamento: 
+        justify-content-center 
+        justify-content-end
+        flex-column
+    -->
+    <h2>Navegação simples / abas</h2>
+    <ul class="nav nav-pills flex-column">
+      <li class="nav-item">
+        <a href="#" class="nav-link active">Lorem</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Ipsum</a>
+      </li>     
+      <li class="nav-item">
+        <a href="#" class="nav-link">Dolorem</a>
+      </li>
+    </ul>
+
+
+    <h2>Barra de navegação simples</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+      <!-- logo -->
+      <a href="#" class="navbar-brand"> Chalé Hotel </a>
+      <!-- navegacao -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Lorem</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Ipsum</a>
+        </li>     
+        <li class="nav-item">
+          <a href="#" class="nav-link">Dolorem</a>
+        </li>
+      </ul>
+
+    </nav>
+    
+
+    <h2>Barra de navegação com menu responsivo</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+      <!-- logo -->
+      <a href="#" class="navbar-brand"> Chalé Hotel </a>
+      <!-- menu sanduiche -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navegacao -->
+      <div class="collapse navbar-collapse" id="nav-target">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Lorem</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Ipsum</a>
+          </li>     
+          <li class="nav-item">
+            <a href="#" class="nav-link">Dolorem</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+
+    <h2>Barra de navegação com formulário</h2>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <!-- logo -->
+      <a href="#" class="navbar-brand"> Chalé Hotel </a>
+      <!-- menu sanduiche -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navegacao -->
+      <div class="collapse navbar-collapse" id="nav-target2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Lorem</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Ipsum</a>
+          </li>     
+          <li class="nav-item">
+            <a href="#" class="nav-link">Dolorem</a>
+          </li>
+        </ul>
+        <!-- formulario -->
+        <form class="form-inline">
+          <input type="text" class="form-control" placeholder="find what you want">
+          <button class="btn btn-outline-success">search</button>
+        </form>
+      </div>
+      
+
+    </nav>
+
+    
+    <h2>Barra de navegação com menu dropdown</h2>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <!-- logo -->
+      <a href="#" class="navbar-brand"> Chalé Hotel </a>
+      <!-- menu sanduiche -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navegacao -->
+      <div class="collapse navbar-collapse" id="nav-target">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Lorem</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Ipsum</a>
+          </li>     
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle"
+            data-toggle="dropdown">Dolorem</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Item 1</a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">Item 2</a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">Item 3</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    
+    <!--Cores
+    opções: bg-primary, bg-secondary, bg-success, bg-info,
+    bg-warning, bg-danger, bg-light, bg-dark
+    -->
+    <h2>Cores</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+      <!-- logo -->
+      <a href="#" class="navbar-brand"> Chalé Hotel </a>
+      <!-- menu sanduiche -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navegacao -->
+      <div class="collapse navbar-collapse" id="nav-target">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Lorem</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Ipsum</a>
+          </li>     
+          <li class="nav-item">
+            <a href="#" class="nav-link">Dolorem</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    <!--Alinhamentos
+    opções: fixed-top, fixed-bottom, sticky
+    -->
+    <h2>Alinhamentos</h2>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-info">
+      <!-- logo -->
+      <a href="#" class="navbar-brand"> Chalé Hotel </a>
+      <!-- menu sanduiche -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navegacao -->
+      <div class="collapse navbar-collapse" id="nav-target">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Lorem</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Ipsum</a>
+          </li>     
+          <li class="nav-item">
+            <a href="#" class="nav-link">Dolorem</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    
+    <div id="Lorem">
+      <h1>Lorem ipsum dolor sit amet</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque sit porro laudantium quo maiores tempora nemo! Voluptatem numquam saepe, perspiciatis ratione rerum ut, quos alias, culpa magnam quam quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo repellendus fuga placeat laborum itaque. Animi, sapiente aperiam. Incidunt quos hic ipsam possimus. Porro qui facere vitae veniam. Ab, magnam temporibus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem omnis aut neque officia ratione minus, et minima facere, quis amet doloribus in recusandae distinctio quas nihil ab id nesciunt.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt soluta incidunt a voluptatibus porro aliquid ullam quaerat voluptas tempora iure sed odio facere pariatur quae ex tenetur vitae, blanditiis consequuntur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque sit porro laudantium quo maiores tempora nemo! Voluptatem numquam saepe, perspiciatis ratione rerum ut, quos alias, culpa magnam quam quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo repellendus fuga placeat laborum itaque. Animi, sapiente aperiam. Incidunt quos hic ipsam possimus. Porro qui facere vitae veniam. Ab, magnam temporibus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem omnis aut neque officia ratione minus, et minima facere, quis amet doloribus in recusandae distinctio quas nihil ab id nesciunt.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt soluta incidunt a voluptatibus porro aliquid ullam quaerat voluptas tempora iure sed odio facere pariatur quae ex tenetur vitae, blanditiis consequuntur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet vero quas at quos, perferendis maxime adipisci doloribus ea odio architecto nesciunt ex incidunt nisi distinctio. Eius voluptates repellendus natus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque sit porro laudantium quo maiores tempora nemo! Voluptatem numquam saepe, perspiciatis ratione rerum ut, quos alias, culpa magnam quam quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo repellendus fuga placeat laborum itaque. Animi, sapiente aperiam. Incidunt quos hic ipsam possimus. Porro qui facere vitae veniam. Ab, magnam temporibus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem omnis aut neque officia ratione minus, et minima facere, quis amet doloribus in recusandae distinctio quas nihil ab id nesciunt.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt soluta incidunt a voluptatibus porro aliquid ullam quaerat voluptas tempora iure sed odio facere pariatur quae ex tenetur vitae, blanditiis consequuntur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet vero quas at quos, perferendis maxime adipisci doloribus ea odio architecto nesciunt ex incidunt nisi distinctio. Eius voluptates repellendus natus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque sit porro laudantium quo maiores tempora nemo! Voluptatem numquam saepe, perspiciatis ratione rerum ut, quos alias, culpa magnam quam quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo repellendus fuga placeat laborum itaque. Animi, sapiente aperiam. Incidunt quos hic ipsam possimus. Porro qui facere vitae veniam. Ab, magnam temporibus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem omnis aut neque officia ratione minus, et minima facere, quis amet doloribus in recusandae distinctio quas nihil ab id nesciunt.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt soluta incidunt a voluptatibus porro aliquid ullam quaerat voluptas tempora iure sed odio facere pariatur quae ex tenetur vitae, blanditiis consequuntur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet vero quas at quos, perferendis maxime adipisci doloribus ea odio architecto nesciunt ex incidunt nisi distinctio. Eius voluptates repellendus natus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque sit porro laudantium quo maiores tempora nemo! Voluptatem numquam saepe, perspiciatis ratione rerum ut, quos alias, culpa magnam quam quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo repellendus fuga placeat laborum itaque. Animi, sapiente aperiam. Incidunt quos hic ipsam possimus. Porro qui facere vitae veniam. Ab, magnam temporibus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem omnis aut neque officia ratione minus, et minima facere, quis amet doloribus in recusandae distinctio quas nihil ab id nesciunt.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt soluta incidunt a voluptatibus porro aliquid ullam quaerat voluptas tempora iure sed odio facere pariatur quae ex tenetur vitae, blanditiis consequuntur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet vero quas at quos, perferendis maxime adipisci doloribus ea odio architecto nesciunt ex incidunt nisi distinctio. Eius voluptates repellendus natus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque sit porro laudantium quo maiores tempora nemo! Voluptatem numquam saepe, perspiciatis ratione rerum ut, quos alias, culpa magnam quam quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo repellendus fuga placeat laborum itaque. Animi, sapiente aperiam. Incidunt quos hic ipsam possimus. Porro qui facere vitae veniam. Ab, magnam temporibus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem omnis aut neque officia ratione minus, et minima facere, quis amet doloribus in recusandae distinctio quas nihil ab id nesciunt.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt soluta incidunt a voluptatibus porro aliquid ullam quaerat voluptas tempora iure sed odio facere pariatur quae ex tenetur vitae, blanditiis consequuntur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet vero quas at quos, perferendis maxime adipisci doloribus ea odio architecto nesciunt ex incidunt nisi distinctio. Eius voluptates repellendus natus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque sit porro laudantium quo maiores tempora nemo! Voluptatem numquam saepe, perspiciatis ratione rerum ut, quos alias, culpa magnam quam quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo repellendus fuga placeat laborum itaque. Animi, sapiente aperiam. Incidunt quos hic ipsam possimus. Porro qui facere vitae veniam. Ab, magnam temporibus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem omnis aut neque officia ratione minus, et minima facere, quis amet doloribus in recusandae distinctio quas nihil ab id nesciunt.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt soluta incidunt a voluptatibus porro aliquid ullam quaerat voluptas tempora iure sed odio facere pariatur quae ex tenetur vitae, blanditiis consequuntur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet vero quas at quos, perferendis maxime adipisci doloribus ea odio architecto nesciunt ex incidunt nisi distinctio. Eius voluptates repellendus natus.</p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

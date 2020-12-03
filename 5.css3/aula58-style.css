@@ -1,0 +1,46 @@
+#aula{
+    font-weight: bold;
+    font-size: 30px;
+    color: goldenrod;
+    background-color: lavenderblush;
+    text-align: center;
+    padding-top:10px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul#navbar{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    width: 720px;
+    float:left;
+}
+
+ul#navbar li{
+    float: left;
+    background: url(media/aba-direita.png) no-repeat top right;
+}
+
+ul#navbar a{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(media/aba-esquerda.png) no-repeat top left;
+    color:white;
+}
+
+ul#navbar a:hover{
+    color: #894a1f;
+}
+
+ul#navbar li.selected {
+    background: url(media/aba-direita-atual.png) no-repeat top right;
+}
+
+ul#navbar li.selected a{
+    background: url(media/aba-esquerda-atual.png) no-repeat top left;
+}

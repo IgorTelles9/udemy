@@ -1,0 +1,15 @@
+#box{
+    background: #067538;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+#search{
+    width: 80%;
+    text-align: center;
+}

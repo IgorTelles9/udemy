@@ -1,0 +1,288 @@
+/*
+******* Cabeçalho *******
+*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(243, 241, 241) url(../media/fundo.png) repeat-x top left;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto; 
+}
+
+#header{
+    height: 150px;
+    /*background: url(../media/detalhe-topo.png) no-repeat right top;*/
+    padding-top: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../media/logo.png) no-repeat center;
+    text-indent: -6000px;
+}
+
+/*
+******* Topo Navbar *******
+*/
+
+ul{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+
+#header ul {
+    margin-top:30px;
+    background: white;
+    float:left;
+}
+
+#header ul li{
+    float: left;
+}
+
+#header ul a{
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    color: black;
+    font-weight: bold;
+    background: url(../media/divisor.png) no-repeat left center;
+}
+
+#header ul .first a {
+    background: none;
+}
+
+#header ul a:hover,
+#header ul .selected a{
+    color: rgb(114, 112, 112);
+}
+
+
+#header ul .selected a{
+    cursor: text;
+}
+
+/*
+*****  Colunas de conteúdo estrutura
+*/
+
+#content{
+    margin-top: 60px;
+    background: aliceblue;
+}
+
+#content #primary{
+    width: 270px;
+    margin: 0 0 20px 195px;
+    float: left;
+    
+}
+
+#double-column #content #primary{
+    width: 555px;
+
+}
+
+#single-column #content #primary{
+    width: 750px;
+    margin: 0 0 20px 0;
+
+}
+
+#content #secondary{
+    width: 270px;
+    margin: 0 0 20px 15px;
+    float:left;
+}
+
+#content #sidebar{
+    width:180px;
+    margin: 0 0 20px -750px;
+    float:left;
+}
+
+/* Colunas de conteúdo layout */
+.box{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../media/fundo-caixa.png);
+}
+
+.content-box{
+    background: #FFF;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+h2{
+    font-size: 1.1em;
+    background: #712929;
+    color: #FFF;
+    padding: 5px;
+}
+
+/* Sidebar  */
+
+#sidebar ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display:block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#sidebar ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(../media/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+#sidebar p{
+    font-size: 0.9em;
+
+}
+
+label{
+    display: block;
+    cursor:pointer;
+}
+
+input {
+    font-size: 0.8em;
+    background-color: white;
+    padding: 5px;
+    width: 125px;
+    margin: 5px auto;
+}
+
+input.submit{
+    width:80px;
+    color:black;
+    background-color: #d8d8d8;
+    border: 2px solid rgb(155, 152, 152);
+    cursor: pointer;
+}
+/* colunas de notícias  */
+
+img.main-image{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+    margin: 10px 0 5px 0;
+}
+
+.noticias h3, 
+.destaque h3,
+.covid h3{
+    background-color: rgb(155, 152, 152);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding:3px;
+}
+
+.destaque h3{
+    color:white;
+}
+
+.noticias h3{
+    color:black;
+}
+
+.covid h3{
+    background-color: black;
+    color:white;
+    
+}
+
+.noticias a:hover, 
+.destaque a:hover,
+.covid a:hover{
+    color: #712929;
+}
+
+.noticias a, 
+.destaque a,
+.covid a{
+    display:block;
+    margin-top: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.noticias p, 
+.destaque p,
+.covid p {
+    text-align: justify;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(187, 185, 185) ;
+}
+
+#news-list li{
+    padding: 2px;
+    border-bottom: 1px solid rgb(187, 185, 185) ;
+    height: 65px;
+}
+
+#news-list li a img{
+    float:left;
+    margin: 5px;
+
+}
+
+#news-list li a{
+    text-decoration: none;
+    
+}
+
+#news-list a h3{
+    color: rgb(158, 48, 48);
+    font-size: 0.8em;
+    text-transform: uppercase;
+
+}
+
+#news-list a p{
+    color:black;
+    text-align: left;
+    font-size: 0.7em;
+}
+
+#news-list li:hover{
+    background-color: #eee;
+    cursor:pointer;
+}
+
+
+/* Footer */
+#footer{
+    background: #712929;
+    padding:20px;
+    clear:both;
+}
+
+#inner-footer{
+    width: 750px;
+    margin: 0 auto;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+}
