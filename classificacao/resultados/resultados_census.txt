@@ -1,0 +1,38 @@
+Census
+------------
+0.7559 - Base line classifier
+
+0.4767 - Naive Bayes (dados categóricos em discretos + dummies + escalonamento)
+0.7952 - Naive Bayes (dados categóricos  em discretos)
+0.7950 - Naive Bayes (dados categoricos em discretos + dummies)
+0.8057 - Naive Bayes (dados categóricos em discretos + escalonamento)
+
+
+0.8102 - Árvore de decisão (dados categóricos em discretos + dummies + escalonamento)
+0.8129 - Árvore de decisão (dados categóricos em discretos)
+0.8102 - Árvore de decisão (dados categoricos em discretos + dummies)
+0.8129 - Árvore de decisão (dados categóricos em discretos + escalonamento)
+
+0.8478 - Random Forest [40] (dados categóricos em discretos + dummies + escalonamento)
+0.8481 - Random Forest [40] (dados categóricos em discretos)
+0.8489 - Random Foest [40] (dados categoricos em discretos + dummies)
+0.8483 - Random Forest [40] (dados categóricos em discretos + escalonamento)
+
+0.7880 - Indução por regras CN2 (sem pré-processamento)
+
+0.822 - KNN (dados categóricos em discretos + dummies + escalonamento)
+
+0.8600 - Regressão Logística (dados categóricos em discretos + dummies + escalonamento)
+0.7867 - Regressão Logística (dados categóricos em discretos)
+0.7949 - Regressão Logística (dados categoricos em discretos + dummies)
+0.8184 - Regressão Logística (dados categóricos em discretos + escalonamento)
+
+0.8508 - SVM [linear] (dados categóricos em discretos + dummies + escalonamento)
+? - SVM [linear] Logística (dados categóricos em discretos)
+? - SVM [linear] (dados categoricos em discretos + dummies)
+0.8135 - SVM [linear] (dados categóricos em discretos + escalonamento)
+
+0.8305 - redes neurais (dados categóricos em discretos + dummies + escalonamento)
+? 0.2440 redes neurais (dados categóricos em discretos)
+? - redes neurais (dados categoricos em discretos + dummies)
+0.8135 - redes neurais (dados categóricos em discretos + escalonamento)

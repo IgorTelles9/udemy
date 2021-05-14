@@ -1,0 +1,26 @@
+Credit Data
+------------
+0.872 - Base Line Classifier
+
+0.938 - Naive Bayes (incosistentes + faltantes + escalonamento)
+
+0.982 - Árvore de decisão (incosistentes + faltantes + escalonamento)
+
+0.968 - Random Forest [10] (incosistentes + faltantes + escalonamento)
+0.978 - Random Forest [15] (incosistentes + faltantes + escalonamento)
+0.984 - Random Forest [40] (incosistentes + faltantes + escalonamento)
+
+0.9520 - Indução de regras CN2 (sem pré-processamento)
+
+0.9859 - kNN (inconsistentes + faltantes + escalonamento)
+
+0.946 - Regressão Logística (incosistentes + faltantes + escalonamento)
+
+0.946 - SVM [linear] (incosistentes + faltantes + escalonamento)
+0.968 - SVM  [polinomial] (incosistentes + faltantes + escalonamento)
+0.838 - SVM [sigmoid] (incosistentes + faltantes + escalonamento)
+0.982 - SVM [rbf, C = 1.0] (incosistentes + faltantes + escalonamento)
+0.988 - SVM [rbf, C = 2.0] (incosistentes + faltantes + escalonamento)
+
+0.994 - Redes Neurais (incosistentes + faltantes + escalonamento)
+0.996 - Redes Neurais KERAS (incosistentes + faltantes + escalonamento)
